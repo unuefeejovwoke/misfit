@@ -1,0 +1,170 @@
+main{
+    min-height: 80vh;
+}
+
+h1{
+  font-size: 1.8rem;
+  padding:1rem 0;
+}
+
+h2{
+  font-size: 1.4rem;
+  padding:0.5rem 0;
+}
+
+h3{
+    padding:1rem 0;
+}
+
+.rating span{
+  margin:0.1rem;
+}
+
+
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+ 
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+  color: #fff;
+}
+
+.carousel-caption h4 {
+  color: #fff;
+}
+
+.nounderline{
+  text-decoration: none !important;
+}
+
+.text{
+  background-color: rgb(192, 129, 34);
+}
+
+.ll{
+  color: #fff !important;
+}
+
+.bgss{
+  background-color: rgb(192, 129, 34);
+}
+
+.pag{
+  background-color: rgb(192, 129, 34);
+  color:rgb(0, 0, 0);
+}
+
+
+.desc{
+  max-width:400px;
+  font-size: 15px;
+}
+
+.text-abu{
+  color: #f3a238;
+}
+
+
+.tebel-sedang{
+  font-weight: bold;
+  font-size:15px;
+  color: #f3a238;
+}
+
+.button{
+  background-color:rgb(192, 129, 34);
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s
+}
+
+.button:hover{
+  background-color: white;
+  color: black;
+}
+
+.gambar{
+  display: none;
+}
+
+.img{
+  width: 500px;
+  z-index: -1;
+}
+
+
+
+.warning{
+  color: rgb(248, 248, 246);
+  font-weight: bold;
+}
+#username,
+#adminmenu{
+  color:#fff;
+  font-weight: bold;
+  background-color: rgb(192, 129, 34);
+}
+.carousel img {
+  display:block;
+  height: 300px;
+  width: 600px;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel a {
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .img{
+    display: none;
+    width: 500px;
+  }
+
+  .gambar{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .img{
+    display: none;
+    width: 500px;
+  }
+
+  .gambar{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1199px){
+  .img{
+    width: 500px;
+    z-index: -1;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .img{
+    width: 300px;
+    z-index: -1;
+  }
+}
+
